@@ -36,12 +36,6 @@ public class Main {
         System.out.println(x);
 
 
-        // asdsada
-        // asdsada
-        // asdsada
-        // asdsada
-        // asdsada
-        // asdsada
 
     }
 }
