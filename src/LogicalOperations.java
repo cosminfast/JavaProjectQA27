@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LogicalOperations {
 
     public int getGreaterNumber(int first, int second) {
@@ -16,5 +18,14 @@ public class LogicalOperations {
         }
         return "Not applicable";
 
+    }
+
+    public String verifyTextAndNumber2(String textInput, int number) {
+        if (textInput.equals("FastTrack") && number <= 3) {
+            return (textInput + number);
+        } else if (!textInput.equals("FastTrack") && number >= 4) {
+            return (number + textInput);
+        }
+        return "Not applicable";
     }
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main3 {
 
 
@@ -21,9 +23,18 @@ public class Main3 {
 
         String textInput = "FastTracka";
         int number = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduceti text:");
+        textInput = scanner.next();
+        System.out.println("Introduceti numar:");
+        number = scanner.nextInt();
 
-        System.out.println(op.verifyTextAndNumber(textInput,number));
+
+        System.out.println(op.verifyTextAndNumber(textInput, number));
+        System.out.println(op.verifyTextAndNumber2(textInput,number));
 
 
     }
+
+
 }
