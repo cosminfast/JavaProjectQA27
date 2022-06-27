@@ -2,12 +2,21 @@ package AnimalRescuer;
 
 public class Dog {
 
-    int age = 10;
-    String race = "buldog";
-    String name = "Ralph";
-    String color = "gray";
-    double weight =  10.5;
-    int heightCm = 20;
+    private int age;
+    private String race ;
+    private String name ;
+    private String color ;
+    private double weight ;
+    private int heightCm ;
+
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
 
 
     public void eat(){
