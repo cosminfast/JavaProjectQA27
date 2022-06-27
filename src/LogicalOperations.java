@@ -44,5 +44,21 @@ public class LogicalOperations {
         return sum / 100d;
     }
 
-//    1,2,3,4,.....97,98,99,100
+    public double getAverageInInterval(int start, int finish){
+
+        int sum = 0;
+        double count = 0;
+        while(start <= finish){
+            sum = sum + start;
+            start++;
+            count++;
+        }
+
+        return (sum/count);
+    }
+
+    public double getAverageForEvenInInterval(int start, int finish){
+
+    }
+
 }

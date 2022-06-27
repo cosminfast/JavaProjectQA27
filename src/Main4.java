@@ -17,8 +17,12 @@ public class Main4 {
 // sum of 1, 2, 3, ..., to 100. Also
 // compute and display the average.
 
-        System.out.println(op.sumAndAverage());
+//        System.out.println(op.sumAndAverage());
 
+//Modify the program to sum from 111 to 8899, and compute the average.
+// Introduce an int variable called count to count the numbers in the specified range.
+
+        System.out.println(op.getAverageInInterval(111, 8899));
 
 
 
