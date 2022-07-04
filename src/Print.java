@@ -1,11 +1,11 @@
 public class Print {
 
-    public void printStars(){
+    public void printStars() {
         System.out.println(
-                "    *    \n"+
-                "   ***   \n"+
-                "  *****  \n"+
-                " ******* \n"+
-                "*********");
+                "    *    \n" +
+                        "   ***   \n" +
+                        "  *****  \n" +
+                        " ******* \n" +
+                        "*********");
     }
 }

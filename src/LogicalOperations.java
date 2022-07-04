@@ -68,4 +68,62 @@ public class LogicalOperations {
         return sum / count;
     }
 
+    public void printStars(int starsNumber) {
+        String star = "*";
+        for (int j = 0; j < starsNumber; j++) {
+            for (int i = starsNumber - j; i >= 1; i--) {
+                System.out.print(star);
+            }
+            System.out.println();
+        }
+    }
+
+    public void printCozaLoza() {
+        for (int i = 1; i <= 110; i++) {
+            if (i % 3 == 0 && i % 5 == 0 && i % 7 == 0) {
+                System.out.print("CozaLozaWoza ");
+            } else if (i % 5 == 0 && i % 7 == 0) {
+                System.out.print("WozaLoza ");
+            } else if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("CozaLoza ");
+            } else if (i % 3 == 0 && i % 7 == 0) {
+                System.out.print("CozaWoza ");
+            } else if (i % 3 == 0) {
+                System.out.print("Coza ");
+            } else if (i % 5 == 0) {
+                System.out.print("Woza ");
+            } else if (i % 7 == 0) {
+                System.out.print("Loza ");
+            } else {
+                System.out.print(i + " ");
+            }
+
+            if (i % 11 == 0) {
+                System.out.println();
+            }
+        }
+    }
+
+    public int[] populateArrayUpToNumber(int number) {
+        int[] array = new int[number];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        }
+        return array;
+    }
+
+    public void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+
+    public double getAverageFromArray(int[] array) {
+        double sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum / array.length;
+    }
+
 }

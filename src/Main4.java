@@ -22,9 +22,12 @@ public class Main4 {
 //Modify the program to sum from 111 to 8899, and compute the average.
 // Introduce an int variable called count to count the numbers in the specified range.
 
-        System.out.println(op.getAverageInInterval(111, 8899));
+//        System.out.println(op.getAverageInInterval(111, 8899));
 
 
+//        op.printStars(30);
+
+        op.printCozaLoza();
 
     }
 }
