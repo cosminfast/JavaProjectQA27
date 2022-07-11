@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main2 {
 
-    static String classVariable = "Fresh!";
+    static String classVariable = "Fresh!a";
     public static void main(String[] args) {
         String localVariable = "Uau";
         System.out.println(localVariable);
