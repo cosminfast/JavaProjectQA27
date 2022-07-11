@@ -1,7 +1,7 @@
 package AnimalRescuer;
 
-import AnimalRescuer.animals.dog.Dog;
 import AnimalRescuer.animals.Duck;
+import AnimalRescuer.animals.dog.Dog;
 
 public class AppMain {
 

@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class LogicalOperations {
 
     public int getGreaterNumber(int first, int second) {
@@ -126,13 +128,23 @@ public class LogicalOperations {
         return sum / array.length;
     }
 
-    public boolean isValueInArray(String[] array, String value){
-        for (int i = 0; i< array.length;i++){
-            if (array[i].equals(value)){
+    public boolean isValueInArray(String[] array, String value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals(value)) {
                 return true;
             }
         }
         return false;
+    }
+//Scrieti o metoda Java,
+// care sa primeasca parametru o Lista,
+// si sa afiseze, pe rand, toate valorile din lista,
+// dar invers(de la capat la inceput).
+
+    public void printNumbersBackwardsFromList(List<Integer> myList) {
+        for (int i = myList.size() - 1; i >= 0; i--) {
+            System.out.println(myList.get(i));
+        }
     }
 
 }
