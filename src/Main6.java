@@ -51,6 +51,19 @@ public class Main6 {
 
         op.printNumbersBackwardsFromList(myListOfInt);
 
+        List<Integer> z = new ArrayList<>();
+        op.addToEndOfList(myList,1);
+
+        List<Integer> unorderedList = new ArrayList<>();
+        unorderedList.add(13);
+        unorderedList.add(11);
+        unorderedList.add(123);
+        unorderedList.add(12);
+
+        System.out.println(op.getHighestNumber(unorderedList));
+
+        Calculator calc = new Calculator();
+        calc.sum(myList);
 
     }
 

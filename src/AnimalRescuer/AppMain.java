@@ -2,6 +2,8 @@ package AnimalRescuer;
 
 import AnimalRescuer.animals.Duck;
 import AnimalRescuer.animals.dog.Dog;
+import AnimalRescuer.animals.dog.Labrador;
+import AnimalRescuer.animals.Siamese;
 
 public class AppMain {
 
@@ -26,5 +28,11 @@ public class AppMain {
         ducky.setName("Ducky");
 
         ducky.sleep();
+
+        Labrador duffy = new Labrador();
+        ducky.speak();
+
+        Siamese toby = new Siamese();
+        toby.speak();
     }
 }

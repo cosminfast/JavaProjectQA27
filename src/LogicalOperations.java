@@ -147,4 +147,22 @@ public class LogicalOperations {
         }
     }
 
+    public void addToEndOfList(List<Integer> list, int a) {
+        list.add(a);
+    }
+
+    public int getHighestNumber(List<Integer> list) {
+
+        int max = list.get(0);
+
+        for (int x : list) {
+            if (x > max) {
+                max = x;
+            }
+        }
+
+        return max;
+
+    }
+
 }
