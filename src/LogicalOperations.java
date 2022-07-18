@@ -165,4 +165,12 @@ public class LogicalOperations {
 
     }
 
+    public void addStringToList(List<String> theList, int position, String value){
+        theList.add(position,value);
+
+    }
+    public void replacePositionInListWithString (List<String> myList, int a, String text){
+        myList.set(a-1,text);
+    }
+
 }
