@@ -4,7 +4,7 @@ public class Main7 {
 
     public static void main(String[] args) {
         Read read = new Read();
-        int x = read.getInt();
+        double x = read.getDouble();
         System.out.println(x);
 
     }

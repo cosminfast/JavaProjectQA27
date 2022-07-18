@@ -17,4 +17,24 @@ public class Dog extends Animal {
     public void waveTail() {
         System.out.println("waving the tail");
     }
+
+    @Override
+    public void eat() {
+        
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
+    @Override
+    public void speak() {
+
+    }
+
+    @Override
+    public void play() {
+
+    }
 }
